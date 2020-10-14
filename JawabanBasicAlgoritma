@@ -1,0 +1,12 @@
+fun multiplicationTable(array: Int): List<List<Int>>{
+  val angka = arrayOf(
+    arrayOf(1,2,3),
+    arrayOf(2,4,6),
+    arrayOf(3,6,9)
+  )
+  return angka()
+}
+
+fun main(){
+ angka()
+}
