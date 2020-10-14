@@ -1,0 +1,15 @@
+//soal function 
+
+fun hello(name:String = "World"){
+  println("Hello, ${name.toLowerCase()}!")
+  
+}
+
+fun main() {
+  
+  hello("john")
+  hello("aliCE")
+  hello()
+  hello("")
+  
+}
