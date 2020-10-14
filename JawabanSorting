@@ -1,0 +1,26 @@
+//sorting
+fun main(){
+ val intArray = intArrayOf(4, 9, 7, 5, 8, 9, 3)
+
+intArray.sort(1, 3)
+println(intArray.joinToString()) //1
+intArray.sort(2,4)
+println(intArray.joinToString())//2
+intArray.sort(1,3)
+println(intArray.joinToString())//3
+intArray.sort(3,5)
+println(intArray.joinToString())//4
+intArray.sort(5,7)
+println(intArray.joinToString())//5
+intArray.sort(4,6)
+println(intArray.joinToString())//6
+intArray.sort(3,5)
+println(intArray.joinToString())//7
+intArray.sort(2,4)
+println(intArray.joinToString())//8
+intArray.sort(1,3)
+println(intArray.joinToString())//9
+intArray.sort(0,2)
+println(intArray.joinToString())//10
+
+}
