@@ -1,0 +1,9 @@
+fun main(args: Array<String>) {
+ 
+    var str = "milkshake pizza chicken fries coke burger pizza sandwich milkshake pizza"
+    var delimiter = " "
+ 
+    val parts = str.split(delimiter)
+ 
+    print(parts)
+}
